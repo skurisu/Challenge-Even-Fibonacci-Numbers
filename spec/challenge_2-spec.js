@@ -10,9 +10,9 @@ describe("Sum of even numbers in the fibonnaci sequence", function () {
   // when your tests pass, uncomment the next test and
   // change the expected value to the correct result
   
-  // it("should return 'X' for n=4,000,000", function () {
-  //   var sum = challenge_2.sumOfEvenFibonacciNumbers(4000000);
-  //   expect(X).toBe(sum); // CHANGE THE VALUE OF X to the correct number
-  // });
+  it("should return 'X' for n=4,000,000", function () {
+    var sum = challenge_2.sumOfEvenFibonacciNumbers(4000000);
+    expect(4613732).toBe(sum); // CHANGE THE VALUE OF X to the correct number
+  });
 
 });    
